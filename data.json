@@ -1,13 +1,10 @@
 [
-
     {
-        "titulo":"estudiar javascript",
-        "descripcion":"Algo con respecto a estudiar javascript"
-
+        "titulo": "estudiar javascript",
+        "descripcion": "La repepe del lorete"
     },
     {
-        "titulo":"Otro estudiar javascript",
-        "descripcion":"Algo con respecto a estudiar javascript"
-
-    }    
+        "titulo": "Otro estudiar javascript",
+        "descripcion": "Algo con respecto a estudiar javascript"
+    }
 ]

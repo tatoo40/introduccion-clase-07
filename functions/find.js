@@ -1,10 +1,8 @@
-const fs = require("fs");
-const data = fs.readFileSync("./data.json","utf-8");
+const { list } = require("./list");
 
-let dataParseada = JSON.parse(data);
-
-function find(){
-    return dataParseada.map(tarea=>tarea.titulo);
+function find(parametro){
+    const titulos = list();
+    return titulos.includes(parametro);
 }
 
 module.exports = { find }
